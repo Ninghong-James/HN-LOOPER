@@ -148,7 +148,7 @@ fun PlayerScreen(
 @Composable
 private fun Header() {
     Column {
-        Text("HN LOOP PLAYER", style = MaterialTheme.typography.labelLarge,
+        Text("HN LOOPER", style = MaterialTheme.typography.labelLarge,
             color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(6.dp))
         Text("Your media, on repeat.", style = MaterialTheme.typography.headlineMedium,
